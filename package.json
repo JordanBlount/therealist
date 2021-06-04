@@ -1,0 +1,17 @@
+{
+  "name": "therealist",
+  "version": "1.0.0",
+  "description": "A todo list ",
+  "main": "webpack.config.js",
+  "private": true,
+  "dependencies": {
+    "webpack-cli": "^4.7.0",
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Blount",
+  "license": "ISC"
+}
