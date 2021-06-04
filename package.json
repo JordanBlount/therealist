@@ -5,8 +5,11 @@
   "main": "webpack.config.js",
   "private": true,
   "dependencies": {
-    "webpack-cli": "^4.7.0",
-    "webpack": "^5.38.1"
+    "@simonwep/pickr": "^1.8.1",
+    "date-fns": "^2.22.1",
+    "pubsubjs": "^0.3.9",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
   },
   "devDependencies": {},
   "scripts": {
