@@ -86,6 +86,11 @@ Main
 
 }
 
+.todo__right-side {
+    display: flex;
+    align-items: center;
+}
+
 .todo__info {
     display: flex;
     flex-direction: column;
@@ -93,7 +98,7 @@ Main
 }
 
 .todo__left-props {
-    
+
 }
 
 .todo__title {
@@ -111,6 +116,19 @@ Main
     font-weight: 500;
     font-size: 0.875rem;
     color: var(--project-color);
+}
+
+/* 
+
+Flags
+
+*/
+
+.flag {
+    margin: 0 0.438em;
+}
+.notes {
+    color: hsla(0, 0%, 47%, 0.700);
 }
 
 @media (max-width: 600px) {
