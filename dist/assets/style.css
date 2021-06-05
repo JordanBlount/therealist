@@ -9,11 +9,13 @@
 :root {
     --app-color: #A93636;
 
+    --default-text-color: rgb(85, 85, 85);
 
     --sidebar-color: #F0F0F0; 
 
     --project-color: #3672A9;
     
+    --todo-title: #000;
     --todo-description-color: #797979;
     --todo-priority: #E55959;
 }
@@ -21,10 +23,16 @@
 body, html {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
+
+    color: var(--default-text-color);
 }
 
 .row {
     display: flex;
+}
+
+.ver-centered {
+    align-items: center;
 }
 
 .container {
@@ -118,7 +126,15 @@ Side Bar
 
 .sidebar__footer {
     background-color: #E5E5E5;
-    padding: 1.5em 0;
+    padding: 0.75em 0;
+}
+
+.add-list__icon {
+    font-size: 2rem;
+}
+
+.add-list__label {
+    margin-left: 0.50em;
 }
 
 /* 
@@ -155,6 +171,7 @@ Main
 .todo {
     width: 100%;
     height: 4rem;
+    color: var(--todo-title);
     background-color: #FCFBF0;
     border: #E8E4C0 solid 1px;
     border-radius: 3px;
@@ -235,6 +252,41 @@ TODO: Make notes clickable
 .priority {
     color: #E55959;
 }
+
+/* 
+
+    Info
+
+*/
+
+.info {
+    background-color: var(--sidebar-color);
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    /* Closes the sidebar */
+    /* display: none; */
+}
+
+.info__nav {
+    padding: 1em 0;
+}
+
+.info__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.info-container {
+    flex-grow: 1;
+    margin-top: 0.25em;
+    outline: crimson solid 1px;
+}
+
+
 
 @media (max-width: 600px) {
 
