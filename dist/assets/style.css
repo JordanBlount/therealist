@@ -1,0 +1,37 @@
+@import "./fonts/css/icons.css";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --app-color: #fff;
+}
+
+body, html {
+    margin: 0;
+}
+
+
+/* 
+
+Main
+
+*/
+
+.sidebar-toggle {
+    font-size: 2.25rem;
+}
+
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
