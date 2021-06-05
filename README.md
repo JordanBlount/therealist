@@ -4,7 +4,8 @@ A todo list created as a project for the Odin Project.
 
 
 
-I created these designs for the app in Figma. Trying to test my design skills as well.
+I created this designs for the app in Figma. Trying to test my design skills as well.
+
 
 
 **Mobile**
@@ -16,6 +17,12 @@ I created these designs for the app in Figma. Trying to test my design skills as
 **Deskop**
 
 ![Desktop View](https://github.com/JordanBlount/therealist/blob/main/refs/Desktop.png)
+
+
+
+**Map of ideas + designs**
+
+![Desktop View](https://github.com/JordanBlount/therealist/blob/main/refs/ideas.jpg)
 
 
 
