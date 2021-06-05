@@ -4,6 +4,9 @@ A todo list created as a project for the Odin Project.
 
 
 
+I created this designs for the app in Figma. Trying to test my design skills as well.
+
+
 **Mobile**
 
 ![Mobile view](https://github.com/JordanBlount/therealist/blob/main/refs/Books%20-%20Project.png)
