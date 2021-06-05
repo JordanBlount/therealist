@@ -7,11 +7,15 @@
 }
 
 :root {
-    --app-color: #fff;
+    --app-color: #A93636;
+
+
+    --sidebar-color: #F0F0F0; 
 
     --project-color: #3672A9;
     
     --todo-description-color: #797979;
+    --todo-priority: #E55959;
 }
 
 body, html {
@@ -23,10 +27,37 @@ body, html {
 }
 
 .container {
-    width: calc(100vw - 2em);
+    /* width: calc(100vh - 2.5em) */
+    width: calc(100% - 2em); 
     margin: 0 auto;
 }
 
+/* 
+
+Side Bar
+
+*/
+
+.sidebar {
+    background-color: var(--sidebar-color);
+    width: 500px;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.sidebar__nav {
+    padding: 1em 0;
+}
+
+.app__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    color: var(--app-color);
+}
 
 /* 
 
@@ -36,6 +67,10 @@ Main
 
 .sidebar-toggle {
     font-size: 1.5rem;
+}
+
+.main-content {
+    width: 100%;
 }
 
 .main-content__nav {
@@ -53,6 +88,7 @@ Main
 
 .todolist {
     min-height: 100vh;
+    margin-top: 0.25em;
 }
 
 .todo {
@@ -98,7 +134,8 @@ Main
 }
 
 .todo__left-props {
-
+    display: flex;
+    align-items: center;
 }
 
 .todo__title {
@@ -122,13 +159,20 @@ Main
 
 Flags
 
+TODO: Make notes clickable
+
 */
 
 .flag {
     margin: 0 0.438em;
 }
+
 .notes {
     color: hsla(0, 0%, 47%, 0.700);
+}
+
+.priority {
+    color: #E55959;
 }
 
 @media (max-width: 600px) {
