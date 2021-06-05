@@ -2,14 +2,29 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
     --app-color: #fff;
+
+    --project-color: #3672A9;
+    
+    --todo-description-color: #797979;
 }
 
 body, html {
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: calc(100vw - 2em);
+    margin: 0 auto;
 }
 
 
@@ -20,9 +35,83 @@ Main
 */
 
 .sidebar-toggle {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
 }
 
+.main-content__nav {
+    padding: 1em 0;
+}
+
+.main-content__title {
+    margin: 0;
+    margin-left: 0.50em;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    color: var(--project-color);
+}
+
+.todolist {
+    min-height: 100vh;
+}
+
+.todo {
+    width: 100%;
+    height: 4rem;
+    background-color: #FCFBF0;
+    border: #E8E4C0 solid 1px;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+}
+
+.todo + .todo {
+    margin-top: 0.625rem;
+}
+
+.todo-container {
+    width: 100%;
+    margin: 0 1em;
+    /* outline: crimson solid 1px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo__left-side {
+    display: flex;
+    align-items: center;
+
+}
+
+.todo__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75em;
+}
+
+.todo__left-props {
+    
+}
+
+.todo__title {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.todo__description {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--todo-description-color);
+}
+
+.todo__dueDate {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--project-color);
+}
 
 @media (max-width: 600px) {
 
