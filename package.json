@@ -1,7 +1,7 @@
 {
   "name": "therealist",
   "version": "1.0.0",
-  "description": "A todo list ",
+  "description": "A todo list",
   "main": "webpack.config.js",
   "private": true,
   "dependencies": {
