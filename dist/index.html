@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groceries - TheRealist</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="main.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body class="row">
 
-    <div class="sidebar disactive">
+    <div class="sidebar" id="sidebar">
         <div class="container">
             <div class="sidebar__nav">
                 <h1 class="app__title">TheRealist</h1>
             </div>
         </div>
 
-        <div class="projectlist container">
+        <div class="projectlist container" id="projectlist">
             <div class="project">
                 <div class="project-container">
                     <div class="project__left-side">
@@ -44,22 +45,29 @@
         </div>
 
         <div class="sidebar__footer">
-            <div class="container row ver-centered">
+            <div class="container row ver-centered" id="addnewproject">
                 <i class="icon-plus-circled add-list__icon"></i>
                 <p class="add-list__label">Create New List</p>
             </div>
         </div>
     </div>
 
-    <div class="main-content">
+    <div class="main-content" id="main-content">
         <div class="main-content__nav">
-            <div class="container row">
-                <i class="sidebar-toggle icon-align-left"></i>
-                <h1 class="main-content__title">Groceries</h1>
+            <div class="nav_container container">
+                <div class="left row">
+                    <i class="sidebar-toggle icon-align-left"></i>
+                    <h1 class="main-content__title" id="projectTitle">Groceries</h1>
+                </div>
+                <div class="right row">
+                    <button class="newtodo-btn" id="add-todo">
+                        <i class="icon-plus add-todo__icon"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <div class="todolist">
+        <div class="todolist" id="todolist">
             <div class="container">
                 <div class="todo">
                     <div class="todo-container">
@@ -85,7 +93,7 @@
         </div>
 
     </div>
-    <div class="info disactive">
+    <div class="info">
         <div class="container">
             <div class="info__nav">
                 <!-- Make this a text input -->

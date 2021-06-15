@@ -9,9 +9,10 @@
     "date-fns": "^2.22.1",
     "fontello-cli": "^0.6.2",
     "g": "^2.0.1",
+    "pubsub-js": "^1.9.3",
     "pubsubjs": "^0.3.9",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0"
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
   },
   "devDependencies": {},
   "scripts": {
