@@ -2,6 +2,10 @@
 
 A todo list created as a project for the Odin Project. 
 
+This is currently a work in progress. I took some time off from this project due to different demands from school. I also was quite intimidated with the PubSub design pattern as it is relatively new to me. 
+
+My plan is to finish the app using vanilla Javascript and then port it over to Electron as a way to work on building cross platform apps.
+
 
 
 I created this designs for the app in Figma. Trying to test my design skills as well.
